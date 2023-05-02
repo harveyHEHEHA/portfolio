@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aristotelica-display-trial');
+*{
+  
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    /* background: url(../images/mountain.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%; */
+    background: url(../images/mountain.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline-start: 30px 10%;
+    background: rgba(0,0,0,0.2);
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+
+}
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 9px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav li a:hover{
+    color: #fd5e53;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: #ffffff00;
+    transition: all 0.4s ease 0s;
+    color: rgb(160, 160, 160);
+    border: #fff;
+    /* padding: 9px 10px; */
+}
+
+h1{
+    width: 100%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+#clock{
+    width: 100%;
+    position: relative;
+    font-size: 4vw;
+    color: #fdaea8;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    left: -32%;
+    margin-top: 10%;
+}
+
+.active{
+    color: #fdaea8;
+}
+
+.active:hover{
+    color: #fff;
+    transition: all 0.4s ease 0s;
+}
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn.btm-pink:hover {
+    color: #fdaea8;
+}
+.btn.btn-pink{
+    background: transparent;
+    color: white;
+    border-color: white;
+    transition: all 0.5s ease-in-out;
+    float: right;
+    top: auto;
+}
+
+footer {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    padding-inline-start: 30px 10%;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.cvImage {
+ margin: auto;
+ width: auto;
+ padding: 5px;
+ /* padding-left: 450px; */
+ height: auto; 
+}
